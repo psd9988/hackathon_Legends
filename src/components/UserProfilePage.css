@@ -1,0 +1,18 @@
+/* UserProfilePage.css */
+.user-profile-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport */
+  }
+  
+  .content {
+    flex: 1; /* Allow the content to grow and push the footer to the bottom */
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f9fa; /* Set your preferred background color */
+    border-top: 1px solid #dee2e6; /* Add a top border for separation */
+  }
+  
